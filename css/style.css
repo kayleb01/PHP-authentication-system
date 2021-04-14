@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(228, 229, 247);
+  }
+  .btn{
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 8px 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 10%;
+    border-radius: 10px;
+    border: none;
+    
+  }
+  .img{
+      width: auto;
+      height: 50px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .card {
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-register{
+    font-family: sans-serif;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-index{
+    font-family: sans-serif;
+    width: 50em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+  }
+  .subtitle {
+    text-align: center;
+    font-weight: bold;
+  }
+  .btn-text {
+    margin: 0;
+  }
+  
+  .or {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 0.1em;
+    margin: 25px 0;
+  }
+  .or span {
+    background: #fff;
+    padding: 0 10px;
+  }
+  
+  .email-login {
+    display: flex;
+    flex-direction: column;
+  }
+  .email-login label {
+    color: rgb(170 166 166);
+  }
+  
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+  }
+  select {
+    padding: 15px 20px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box;
+  }
+  
+  .cta-btn {
+    background-color: rgb(69, 69, 185);
+    color: white;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .forget-pass {
+    text-align: center;
+    display: block;
+    color: rgb(69, 69, 185);
+  }
+  
+  .go-back:hover{
+    cursor:pointer;
+    color: rgb(87, 87, 211);
+  }
+
+  .errors{
+      color: crimson;
+      margin: 5px;
+      border: crimson 1px solid;
+      padding: 10px;
+      border-radius: 10px;
+  }
