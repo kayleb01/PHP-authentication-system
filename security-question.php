@@ -26,15 +26,16 @@ if (isset($_SESSION['email'])) {
           unset($_SESSION['errors']);
        }
        ?>
-       <?php var_dump( $data)?>
-   <form  action="functions/forgot-pass-func.php" method="POST">
+      
+   <form  action="functions/security-question-func.php" method="POST">
       <div class="email-login">
          <label for="email"> <b>Question</b></label>
-         <input type="text"  name="email" value="<?=$question?>">
+         <input type="text"  name="email" value="<?php  echo $question['question']?>" readonly style="background-color:silver; font-weight:bold">
 
          <label for="email"> <b>Answer</b></label>
-         <input type="text"  name="answer">
+         <input type="text"  name="answer" placeholder="Your answer">
       </div>
+      <input type="hidden" name="email" value="<?=$_GET['email']?>">
       <button class="cta-btn">Submit</button>
      <span class="go-back forget-pass" onclick="window.history.back()">Go back</span>
    </form>
