@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 if (isset($_GET['email'])) {
    
     $email = stripslashes($_GET['email']);
@@ -33,8 +33,9 @@ if (isset($_POST['answer'])) {
    if ($quest == ucwords($answer)) {
       header('location:../reset-password.php?email='. $email .'');
    }else{
-       $error = ['Your answer is wrong, please try again'];
+       
+       $error[] = 'Your answer was wrong, please try again';
        $_SESSION['errors'] = $error;
-       header('location:../security-question.php');
+       header('location:../security-question.php?email='.$email.'');
    }
 }
