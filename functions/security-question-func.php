@@ -31,7 +31,7 @@ if (isset($_POST['answer'])) {
     $quest = $user_data['answer'];
 
    if ($quest == ucwords($answer)) {
-      header('location:reset-password.php');
+      header('location:../reset-password.php?email='. $email .'');
    }else{
        $error = ['Your answer is wrong, please try again'];
        $_SESSION['errors'] = $error;

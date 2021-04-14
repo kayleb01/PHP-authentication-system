@@ -26,9 +26,6 @@ if (isset($_SESSION['email'])) {
 ?>
    <form  action="functions/forgot-pass-func.php" method="POST">
       <div class="email-login">
-         <label for="curent-password"> <b>Current password</b></label>
-         <input type="password" placeholder="Enter Current" name="current-password" required>
-         <label for="new-password"> <b>New password</b></label>
          <input type="password" placeholder="New password" name="new-password" required>
          <label for="confirm-password"> <b>Confirm password</b></label>
          <input type="password" placeholder="Confirm password" name="confirm-password" required>
